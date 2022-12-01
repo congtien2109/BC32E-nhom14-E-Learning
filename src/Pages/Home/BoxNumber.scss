@@ -1,0 +1,17 @@
+.boxNumberContainer {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  .ie-overflow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

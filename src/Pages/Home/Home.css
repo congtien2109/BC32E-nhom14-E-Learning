@@ -26,20 +26,22 @@
     font-size: 50px;
 }
 
-.sloganContainer h1:nth-of-type(1) {
-}
-.sloganContainer h1:nth-of-type(2) {
-}
+.sloganContainer h1:nth-of-type(1) {}
+
+.sloganContainer h1:nth-of-type(2) {}
+
 .sloganContainer h1:nth-of-type(3) {
     font-size: 65px;
     color: var(--colorGlobal);
     overflow: hidden;
     animation: aniText 5s steps(10) infinite;
 }
+
 .sloganContainer h1:nth-of-type(3) span {
     margin-left: 5px;
     font-size: 50px;
 }
+
 /* btnSlider */
 .btnSlider {
     padding: 10px 20px;
@@ -77,6 +79,7 @@
     width: 10%;
     background-image: radial-gradient(var(--colorTPrimary) 10%, transparent 11%);
 }
+
 .sloganBox .doubleBox {
     left: 74%;
 }
@@ -93,6 +96,7 @@
     border-right: 20px solid transparent;
     border-bottom: 50px solid var(--colorSPrimary);
 }
+
 /* Slider img left */
 .sliderPlaneImg {
     position: absolute;
@@ -102,13 +106,13 @@
     width: 20%;
     height: 20%;
 }
+
 /* Slider Right */
 .sliderRight {
     position: relative;
 }
 
-.sliderImg {
-}
+.sliderImg {}
 
 .sliderMainImg {
     width: 100%;
@@ -119,6 +123,7 @@
     width: 15%;
     height: 15%;
 }
+
 .sliderCodeImg {
     left: 20%;
     top: 50%;
@@ -154,6 +159,7 @@
 .infoCoureBox {
     padding: 50px 0;
 }
+
 .infoCourseHome {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -192,6 +198,7 @@
 .infoItemHome li i {
     padding-right: 10px;
 }
+
 .infoLargeItem {
     grid-row: 1 / span 2;
     background-color: var(--colorGlobal);
@@ -209,9 +216,11 @@
 .infoLargeItem p {
     font-weight: 300;
 }
+
 .infoLargeItem p span {
     font-weight: 700;
 }
+
 /* Info small */
 .infoSmallItemA {
     background-color: var(--colorSPrimary);
@@ -221,6 +230,7 @@
 .infoSmallItemB {
     background-color: #5c8295;
 }
+
 .infoSmallItemC {
     background-color: #63c0a8;
 }
@@ -231,12 +241,15 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .coursesHome ul li {
     margin: 0 20px;
 }
+
 .cateCourse {
     display: flex;
 }
+
 .coursesHome ul li a {
     border-radius: 20px;
     padding: 10px 15px;
@@ -270,6 +283,7 @@
 .cardIcon span {
     color: var(--colorTextCard);
 }
+
 .cardIcon span i {
     margin-right: 8px;
 }
@@ -281,9 +295,11 @@
 .iconCalendar {
     color: #f06f68;
 }
+
 .iconLevel {
     color: #65c9ff;
 }
+
 .cardFooter .iconTag {
     font-size: 18px;
     color: red;
@@ -312,6 +328,7 @@
     border: 1px solid rgba(0, 0, 0, 0.125);
     box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 10%);
 }
+
 .subCard::before {
     content: "";
     position: absolute;
@@ -370,6 +387,7 @@
     border-style: solid;
     border-color: red transparent red transparent;
 }
+
 .cardSale::before {
     content: "";
     position: absolute;
@@ -403,6 +421,7 @@
 
 .textNumberTitle {
     font-weight: 500;
+    color: var(--colorWhite);
 }
 
 /* Img icon Box */
@@ -410,6 +429,7 @@
     width: 80px;
     height: 80px;
 }
+
 /* Effect hover Card */
 .cardGlobal:hover .subCard {
     visibility: visible;
@@ -480,6 +500,7 @@
     justify-content: center;
     margin-top: 8px;
 }
+
 /* dot left */
 .dotLeft {
     position: relative;
@@ -496,6 +517,7 @@
     margin-right: 8px;
     opacity: 1;
 }
+
 .layDotLeft {
     position: absolute;
     width: 12px;
@@ -511,6 +533,7 @@
     position: relative;
     margin-left: 10px;
 }
+
 .labelDotRight {
     position: absolute;
     width: 12px;
@@ -530,27 +553,34 @@
     opacity: 0.25;
     display: block;
 }
+
 /* Effect Slider */
-#sliderInstrutors:checked ~ .instrutorItem .row {
+#sliderInstrutors:checked~.instrutorItem .row {
     transform: translateX(-16.66667%);
 }
-#sliderInstrutors:checked ~ .sliderDot .dotRight .labelDotRight {
+
+#sliderInstrutors:checked~.sliderDot .dotRight .labelDotRight {
     opacity: 1;
 }
-#sliderInstrutors:checked ~ .sliderDot .dotRight .layDotRight {
+
+#sliderInstrutors:checked~.sliderDot .dotRight .layDotRight {
     display: none;
 }
-#sliderInstrutors:checked ~ .sliderDot .dotLeft .labelDotLeft {
+
+#sliderInstrutors:checked~.sliderDot .dotLeft .labelDotLeft {
     opacity: 0.25;
 }
-#sliderInstrutors:checked ~ .sliderDot .dotLeft .layDotLeft {
+
+#sliderInstrutors:checked~.sliderDot .dotLeft .layDotLeft {
     display: block;
 }
+
 /* Review student */
 .reviewStudent {
     position: relative;
     padding: 50px 0;
 }
+
 .textQoute {
     position: relative;
     line-height: 30px;
@@ -635,6 +665,7 @@
     width: 80px;
     background-image: radial-gradient(var(--colorGlobal) 10%, transparent 11%);
 }
+
 .reviewStudent .smallboxLeftBottom {
     border-radius: 50%;
     bottom: 0;
@@ -655,9 +686,11 @@
     .sliderHome {
         flex-direction: column-reverse;
     }
+
     .sloganContainer h1 {
         font-size: 40px;
     }
+
     .sliderPlaneImg {
         position: absolute;
         object-fit: contain;
@@ -666,12 +699,15 @@
         width: 25%;
         height: 30%;
     }
+
     .infoCourseHome {
         grid-template-columns: none;
     }
+
     .subCard {
         display: none;
     }
+
     /* .cardGlobal{
         overflow: hidden;
     } */
@@ -680,13 +716,15 @@
     }
 
     /* Slider Mentor */
-    #sliderInstrutors:checked ~ .instrutorItem .row {
+    #sliderInstrutors:checked~.instrutorItem .row {
         transform: translateX(-100%);
     }
+
     /* Review Student */
     .triangleTopRight {
         left: 15%;
     }
+
     .reviewStudent .smallboxLeftTop {
         width: 15%;
     }
@@ -698,6 +736,7 @@
     .reviewStudent .smallboxRightBottom {
         display: none;
     }
+
     .reviewStudent .smallboxLeftBottom {
         left: auto;
         right: 0;
@@ -709,6 +748,7 @@
     .sliderHome {
         flex-direction: column-reverse;
     }
+
     .sliderPlaneImg {
         position: absolute;
         object-fit: contain;
@@ -717,23 +757,29 @@
         width: 25%;
         height: 30%;
     }
+
     .infoCourseHome {
         grid-template-columns: none;
     }
+
     .instrutorContent {
         padding: 5px;
     }
+
     .instrutorContent p i {
         font-size: 13px;
     }
+
     /* Slider Mentor */
-    #sliderInstrutors:checked ~ .instrutorItem .row {
+    #sliderInstrutors:checked~.instrutorItem .row {
         transform: translateX(-50%);
     }
+
     /* Review student */
     .bgStudentReview {
         top: 10%;
     }
+
     .reviewStudent .smallboxLeftTop {
         width: 15%;
     }
@@ -746,10 +792,12 @@
         opacity: 0;
         transform: translateY(-5%);
     }
+
     50% {
         opacity: 1;
         transform: translateY(-10%);
     }
+
     100% {
         opacity: 0;
         transform: translateY(-15%);
@@ -774,15 +822,19 @@
     0% {
         transform: rotate(0deg);
     }
+
     25% {
         transform: rotate(30deg);
     }
+
     50% {
         transform: rotate(0deg);
     }
+
     75% {
         transform: rotate(-30deg);
     }
+
     100% {
         transform: rotate(0deg);
     }
@@ -793,6 +845,7 @@
     0% {
         width: 0;
     }
+
     50% {
         width: 230px;
     }

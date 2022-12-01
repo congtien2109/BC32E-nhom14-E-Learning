@@ -2,6 +2,23 @@
     padding: 20px 50px;
 }
 
+.imgNetFooter {
+    width: 30px;
+    height: 30px;
+    border-radius: 100rem;
+}
+
+.imgNet {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.cardNetContent {
+    margin-top: 20px;
+}
+
 .BoxSearch {
     display: inline-block;
     position: relative;
@@ -33,7 +50,7 @@
     border-radius: 5px;
 }
 
-.BoxSearch:hover input ~ .checkMark {
+.BoxSearch:hover input~.checkMark {
     /* background-color: #ccc; */
 }
 
@@ -41,7 +58,7 @@
     color: var(--colorSPrimary);
 }
 
-.BoxSearch input ~ .checkMark i {
+.BoxSearch input~.checkMark i {
     position: absolute;
     display: none;
     left: 2px;
@@ -50,20 +67,21 @@
     animation: zoomI 0.2s ease-in-out;
 }
 
-.BoxSearch input:checked ~ .checkMark {
+.BoxSearch input:checked~.checkMark {
     background-color: var(--colorGlobal);
 }
 
-.BoxSearch input:checked ~ .checkMark i {
+.BoxSearch input:checked~.checkMark i {
     display: inline-block;
 }
+
 /* Search Item */
-.navFilter > h6 {
+.navFilter>h6 {
     font-size: 25px;
     padding-bottom: 16px;
 }
 
-.navFilter > h6 i {
+.navFilter>h6 i {
     color: var(--colorGlobal);
     margin-right: 5px;
 }
@@ -72,6 +90,7 @@
     padding-bottom: 10px;
     font-size: 20px;
 }
+
 .filterItem {
     margin-bottom: 10px;
 }
@@ -79,6 +98,7 @@
 .filterItem ul {
     padding-left: 15px;
 }
+
 .filterItem ul li {
     padding: 5px 0;
 }
@@ -126,12 +146,12 @@
     height: 100%;
 }
 
-.filterCheckInput:checked ~ .overlayFilter {
+.filterCheckInput:checked~.overlayFilter {
     display: block;
     /* color: red; */
 }
 
-.filterCheckInput:checked ~ .filterContainer {
+.filterCheckInput:checked~.filterContainer {
     transform: translateX(0);
 }
 
@@ -139,25 +159,30 @@
     .myCourseItem .cancelNet {
         justify-content: flex-start;
     }
+
     .myCourseItem {
         align-items: center;
         justify-items: center;
         /* width: 300px; */
         max-width: 300px;
     }
+
     .courseSearchResult {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .navFilter {
         display: none;
     }
+
     .navFilterRes {
         display: block;
     }
 }
+
 
 /* Tablet */
 @media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
@@ -171,9 +196,11 @@
     0% {
         transform: scale(1.5);
     }
+
     90% {
         transform: scale(0.5);
     }
+
     100% {
         transform: scale(1);
     }
