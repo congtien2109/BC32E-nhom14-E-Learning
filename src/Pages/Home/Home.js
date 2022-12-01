@@ -770,7 +770,7 @@ export default function Home() {
                 />
               </div>
               <div className="textNumber">
-                <CountupNumber end="9000" />
+                <CountupNumber end="3060" />
               </div>
               <p className="textNumberTitle">Học viên</p>
             </div>
@@ -788,7 +788,7 @@ export default function Home() {
                 />
               </div>
               <div className="textNumber">
-                <CountupNumber end="1000" />
+                <CountupNumber end="37" />
               </div>
               <p className="textNumberTitle">Khóa học</p>
             </div>
@@ -806,7 +806,7 @@ export default function Home() {
                 />
               </div>
               <div className="textNumber">
-                <CountupNumber end="33200" />
+                <CountupNumber end="24000" />
               </div>
               <p className="textNumberTitle">Giờ học</p>
             </div>
@@ -823,7 +823,7 @@ export default function Home() {
                 />
               </div>
               <div className="textNumber">
-                <CountupNumber end="400" />
+                <CountupNumber end="27" />
               </div>
               <p className="textNumberTitle">Giảng viên</p>
             </div>
