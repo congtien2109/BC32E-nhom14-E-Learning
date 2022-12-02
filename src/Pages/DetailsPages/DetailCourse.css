@@ -6,7 +6,7 @@
     padding: 50px;
 }
 
-.detailCouresContent > h4{
+.detailCouresContent>h4 {
     text-transform: uppercase;
 }
 
@@ -15,6 +15,7 @@
     padding: 5px;
     align-items: center;
 }
+
 /* Course Title */
 .instrutorTitle {
     padding: 0 5px;
@@ -65,6 +66,7 @@
 .boxCourseLearn {
     padding: 20px 0;
 }
+
 .boxCourseLearn h6 {
     padding: 10px 0;
     font-size: 20px;
@@ -105,7 +107,7 @@
 
 .btnPreview {
     padding: 5px;
-    background-color: transparent;
+    /* background-color: transparent; */
     border: 1px solid var(--colorGlobal);
     font-weight: 500;
     text-transform: uppercase;
@@ -143,44 +145,46 @@
     color: var(--colorGlobal);
     margin-right: 10px;
 }
+
 /* Courses Ralated */
 .coursesRelated {
     padding: 20px 50px;
 }
 
 /* SiderBar */
-.sideBarCourseDetail{
+.sideBarCourseDetail {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 15px ;
+    margin-bottom: 15px;
     padding: 10px 30px;
     box-shadow: 1px 1px 10px 4px rgb(218 218 218);
 
 }
 
-.sideBarCourseDetail img{
+.sideBarCourseDetail img {
     margin: 0 -20px;
 }
 
-.coursePrice{
+.coursePrice {
     padding: 30px 0;
     text-align: right;
-    
 
-}   
-.coursePrice p{
+
+}
+
+.coursePrice p {
     font-weight: 500;
     font-size: 25px;
 }
 
-.coursePrice p i{
+.coursePrice p i {
     margin-right: 10px;
     color: #f6ba35;
 }
 
 /* sideBar Detail Content */
-.sideBarDetailContent ul li{
+.sideBarDetailContent ul li {
     display: flex;
     align-items: center;
     padding: 20px 0;
@@ -188,55 +192,60 @@
     border-bottom: 1px solid #f2f1f1;
 }
 
-.sideBarDetailContent ul li i{
+.sideBarDetailContent ul li i {
     font-size: 20px;
     color: var(--colorSPrimary);
 }
 
-.formCoupon{
+.formCoupon {
     padding: 20px 0;
 }
-.formCoupon input{
+
+.formCoupon input {
     width: 100%;
     outline: none;
     padding: 3px 10px;
     border: 1px solid #d0d0d0;
 }
 
-.sideBarDetailContent ul li p{
+.sideBarDetailContent ul li p {
     color: var(--colorTextCard);
 }
 
-.sideBarDetailContent ul li p span{
+.sideBarDetailContent ul li p span {
     color: var(--colorText);
     font-weight: 500;
 
 }
+
 /* css time detail course */
-.lessonContent span:nth-of-type(2){
+.lessonContent span:nth-of-type(2) {
     display: flex;
     align-items: center;
 }
 
 /* Mobie */
 @media screen and (max-width: 46.1875em) {
-    .detailCourseIntro{
+    .detailCourseIntro {
         margin-bottom: 8px;
     }
-    .detailCouresContent > .row{
+
+    .detailCouresContent>.row {
         flex-direction: column-reverse;
     }
-    .titleDetailCourse{
+
+    .titleDetailCourse {
         padding: 10px 0;
     }
-    .headDetailCourse{
-        padding: 5px 0 ;
+
+    .headDetailCourse {
+        padding: 5px 0;
     }
 }
 
 /* Tablet */
 @media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
-    .detailCourseIntro{
+    .detailCourseIntro {
         margin-bottom: 8px;
     }
 }
