@@ -45,6 +45,7 @@
 /* btnSlider */
 .btnSlider {
     padding: 10px 20px;
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
 }
 
 /* Small box */
@@ -163,7 +164,7 @@
 .infoCourseHome {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    color: var(--colorWhite);
+    color: #111111;
     gap: 20px;
 }
 
@@ -172,6 +173,7 @@
     position: relative;
     overflow: hidden;
     padding: 20px;
+    border-radius: 7px;
 }
 
 .infoItemContent::before {
@@ -202,10 +204,9 @@
 .infoLargeItem {
     grid-row: 1 / span 2;
     background-color: var(--colorGlobal);
-    background-image: url(../../Assets/Img/imgSlider/astronaut.png);
     background-position: right bottom;
-    background-size: 50%;
     background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
 }
 
 .infoItemHome h3 {
@@ -223,16 +224,17 @@
 
 /* Info small */
 .infoSmallItemA {
-    background-color: var(--colorSPrimary);
+    /* background-color: var(--colorSPrimary); */
     /* background: linear-gradient(90deg, rgba(246,186,52,1) 0%, rgba(65,178,148,1) 100%); */
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
 }
 
 .infoSmallItemB {
-    background-color: #5c8295;
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
 }
 
 .infoSmallItemC {
-    background-color: #63c0a8;
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
 }
 
 /* Course Home */
